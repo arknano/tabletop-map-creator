@@ -12,7 +12,7 @@ using UnityEngine;
 namespace UnityEngine.Tilemaps
 {
 	[Serializable]
-	public class TerrainTile : TileBase
+	public class TerrainTile : Tile
 	{
 		[SerializeField]
 		public Sprite[] m_Sprites;
